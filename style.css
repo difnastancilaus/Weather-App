@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+body{
+    background:#999
+}
+.container{
+    background:linear-gradient(135deg,rgb(44, 44, 119),rgb(4, 4, 58));
+    align-self: center;
+    margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+    height: 600px;
+    border-radius: 20px;
+     width: 50%;
+    max-width: 470px; 
+    color: white;
+    font-size: 29px;
+    
+
+}.weather-container{
+    text-align: center;
+    color: white;
+    margin: 100px;
+    font-size: 25px;
+
+}
+nav  form {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+form input{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+}
+form button{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
